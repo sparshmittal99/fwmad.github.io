@@ -1,9 +1,9 @@
 function register(){
-    document.location.href="D:\\Demo\\Food Donation Project\\register.html";
+    document.location.href="register.html";
 }
 
 function register1(){
-    document.location.href="D:\\Demo\\Food Donation Project\\register1.html";
+    document.location.href="register1.html";
 }
 
 'use strict';
