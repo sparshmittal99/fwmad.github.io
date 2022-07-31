@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding:0;
+}
+.hero{
+    height:100%;
+    width:100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(hero.jpg);
+    background-size:cover;
+    position:absolute;
+}
+.form-box{
+    width:380px;
+    height:600px;
+    position:relative;
+    margin:6% auto;
+    background: #fff;
+    padding: 5px;
+    border-radius:8%;
+    overflow:hidden;
+}
+
+.button-box{
+    width:245px;
+    margin:35px auto;
+    position:relative;
+    box-shadow:0 0 20px 9px #ff61241f;
+    border-radius:30px;
+    left:5px;
+}
+
+.toggle-btn{
+    padding:10px 30px;
+    cursor:pointer;
+    background:transparent;
+    border:0;
+    outline:none;
+    position:relative;
+}
+
+#btn{
+    top:0;
+    left:0;
+    position:absolute;
+    width:110px;
+    height:100%;
+    background: linear-gradient(to right, #ff105f, #ffad06);
+    border-radius:30px;
+    transition:0.5s;
+}
+
+.input-group{
+    top:120px;
+    position:absolute;
+    width:280px;
+    transition:0.5s;
+}
+
+.input-field{
+    width:350px;
+    padding:10px 0;
+    margin:5px;
+    border-left:10px;
+    border-top:0;
+    border-right:0;
+    border-bottom:1px solid #999;
+    outline:none;
+    background:transparent;
+}
+
+.check-box{
+    margin:10px 10px 30px 0;
+}
+
+span{
+    color:#777;
+    font-size:12px;
+    bottom:28px;
+    position:absolute;
+}
+
+.acc{
+    margin:0 10px;
+}
+
+.social-icons{
+    margin:30px auto;
+    text-align:center;
+}
+
+.social-icons img{
+    width:30px;
+    margin:0 12px;
+    box-shadow: 0 0 20px 0 #7f7f7f3d;
+    cursor:pointer;
+    border-radius:50%;
+}
+
+.a:link{
+    color: gray;
+    background-color: transparent;
+    text-decoration: none;
+}
+.a:visited{
+    color: gray;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+.a:hover{
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+  
+.a:active{
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.submit-btn{
+    width:85%;
+    padding: 10px 30px;
+    cursor:pointer;
+    display:block;
+    margin:auto;
+    background:linear-gradient(to right, #ff105f, #ffad06);
+    border:0;
+    outline:none;
+    border-radius:30px;
+}
+
+#indi{
+    left:10px;
+}
+
+#ngo{
+    left:450px;
+}
