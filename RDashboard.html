@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./logo.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="assets/css/style4.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Dashboard-FWMAD</title>
+</head>
+
+<body>
+    <section class="header">
+        <div class="logo">
+            <i class="ri-menu-line icon icon-0 menu"></i>
+            <h2><span>FWMAD</span></h2>
+        </div>
+        <div class="h--notification--profile">
+            <div class="notification--profile">
+                <div class="picon lock">
+                    <i class="ri-lock-line"></i>
+                </div>
+                <div class="picon bell">
+                    <i class="ri-notification-2-line"></i>
+                </div>
+                <div class="picon chat">
+                    <i class="ri-wechat-2-line"></i>
+                </div>
+                <div class="picon profile" tabindex="-1">
+                    <img src="assets/images/testi-avatar.png" alt="" onclick="myFunction()">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="main">
+        <div class="sidebar">
+            <ul class="sidebar--items">
+                <li>
+                    <a href="#" id="active--link">
+                        <span class="icon icon-1"><i class="ri-layout-grid-line"></i></span>
+                        <span class="sidebar--item">Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="RPage.html">
+                        <span class="icon icon-4"><i class="ri-user-line"></i></span>
+                        <span class="sidebar--item">Donate Now</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon icon-3"><i class="ri-map-pin-line"></i></i></span>
+                        <span class="sidebar--item">Find NGO's Nearby</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon icon-2"><i class="ri-calendar-2-line"></i></span>
+                        <span class="sidebar--item">Past Donations</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon icon-5"><i class="ri-line-chart-line"></i></span>
+                        <span class="sidebar--item">Create A Custom Donation</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon icon-5"><i class="ri-table-line"></i></span>
+                        <span class="sidebar--item">View Available Requests</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon icon-9"><i class="ri-line-chart-line"></i></span>
+                        <span class="sidebar--item">Matched Donations</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon icon-6"><i class="ri-customer-service-line"></i></span>
+                        <span class="sidebar--item">Live Support</span>
+                    </a>
+                </li>
+            </ul>
+            <ul class="sidebar--bottom-items">
+                <li>
+                    <a href="#">
+                        <span class="icon icon-7"><i class="ri-tools-fill"></i></span>
+                        <span class="sidebar--item">More Tools</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span class="icon icon-8"><i class="ri-feedback-line"></i></span>
+                        <span class="sidebar--item">Feedback</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="main--content">
+            <span class="hi"><h1>Hi Instinct!</h1>
+            </span>
+            <marquee class="grgt" width="1000px" direction="right" scrollamount="10" >FWMAD - A place who spreads love for both human and nature</marquee>
+            <div class="overview">
+                <div class="htitle">
+                    <h2 class="section--title">Overview</h2>
+                </div>
+                <div class="cards">
+                    <div class="card card-1">
+                        <div class="card--data">
+                            <div class="card--content">
+                                <h5 class="card--title">Total Donations</h5>
+                                <h1>152</h1>
+                            </div>
+                            <i class="ri-user-2-line card--icon--lg"></i>
+                        </div>
+                        <div class="card--stats">
+                            <span><i class="ri-bar-chart-fill card--icon stat--icon"></i>65%</span>
+                            <span><i class="ri-arrow-up-s-fill card--icon up--arrow"></i>10</span>
+                            <span><i class="ri-arrow-down-s-fill card--icon down--arrow"></i>2</span>
+                        </div>
+                    </div>
+                    <div class="card card-2">
+                        <div class="card--data">
+                            <div class="card--content">
+                                <h5 class="card--title">Total Matched Donations</h5>
+                                <h1>1145</h1>
+                            </div>
+                            <i class="ri-user-line card--icon--lg"></i>
+                        </div>
+                        <div class="card--stats">
+                            <span><i class="ri-bar-chart-fill card--icon stat--icon"></i>82%</span>
+                            <span><i class="ri-arrow-up-s-fill card--icon up--arrow"></i>230</span>
+                            <span><i class="ri-arrow-down-s-fill card--icon down--arrow"></i>45</span>
+                        </div>
+                    </div>
+                    <div class="card card-3">
+                        <div class="card--data">
+                            <div class="card--content">
+                                <h5 class="card--title">Donations Made During Last Week</h5>
+                                <h1>102</h1>
+                            </div>
+                            <i class="ri-calendar-2-line card--icon--lg"></i>
+                        </div>
+                        <div class="card--stats">
+                            <span><i class="ri-bar-chart-fill card--icon stat--icon"></i>27%</span>
+                            <span><i class="ri-arrow-up-s-fill card--icon up--arrow"></i>31</span>
+                            <span><i class="ri-arrow-down-s-fill card--icon down--arrow"></i>23</span>
+                        </div>
+                    </div>
+                    <div class="card card-4">
+                        <div class="card--data">
+                            <div class="card--content">
+                                <h5 class="card--title">NGO's Available</h5>
+                                <h1>16</h1>
+                            </div>
+                            <i class="ri-line-chart-line card--icon--lg"></i>
+                        </div>
+                        <div class="card--stats">
+                            <span><i class="ri-bar-chart-fill card--icon stat--icon"></i>8%</span>
+                            <span><i class="ri-arrow-up-s-fill card--icon up--arrow"></i>11</span>
+                            <span><i class="ri-arrow-down-s-fill card--icon down--arrow"></i>2</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="myDropdown" class="menu--item">
+                <ul class="menu-items">
+                    <img src="assets/images/testi-avatar.png">
+                    <div class="spcg">
+                        <span class="names"><h3>Instinct Bot</h3></span>
+                        <span class="mailid"><h3>instinctbot@gmail.com</h3></span>
+                    </div>
+                    <span class="edits"><i class="ri-edit-line"></i></span>
+                    <div class="iconss">
+                        <a href="#">
+                            <span class="iconss1"><i class="ri-settings-3-line"></i></span>
+                            <span class="menuss--item"><h4>Settings</h4></span>
+                        </a>
+                        <a href="#">
+                            <span class="iconss2"><i class="ri-question-line"></i></span>
+                            <span class="menuss--item"><h4>Help</h4></span>
+                        </a>
+                        <a href="#">
+                            <span class="iconss3"><i class="ri-phone-line"></i></span>
+                            <span class="menuss--item"><h4>Reach Us</h4></span>
+                        </a>
+                        <a href="#">
+                            <span class="iconss4"><i class="ri-flag-line"></i></span>
+                            <span class="menuss--item"><h4>Report</h4></span>
+                        </a>
+                    </div>
+                    <button class="signo-btn" onclick="logoutt()">
+                        <div class="srea">
+                            <div class="sdreas">
+                                <span class="signo-btnss"><i class="ri-logout-box-r-line"></i></span>
+                            </div>
+                            <div class="gtrs">
+                                <span class="signo-btns"><h3>Sign out</h3></span>
+                            </div>
+                        </div>
+                        
+                    </button>
+                </ul>
+            </div>
+            <div class="doc">
+                <div class="title">
+                    <h2 class="section--title">Trending NGO'S</h2>
+                </div>
+                <div class="doc--cards">
+                    <a href="#" class="doc--card">
+                        <div class="img--box--cover">
+                            <div class="img--box">
+                                <img src="assets/images/ngo1.jpg" alt="">
+                            </div>
+                        </div>
+                        <p class="res"><h3>ADFC</h3></p>
+                    </a>
+                    <a href="#" class="doc--card">
+                        <div class="img--box--cover">
+                            <div class="img--box">
+                                <img src="assets/images/ngo2.jpg" alt="">
+                            </div>
+                        </div>
+                        <p class="res"><h3>SFGC</h3></p>
+                    </a>
+                    <a href="#" class="doc--card">
+                        <div class="img--box--cover">
+                            <div class="img--box">
+                                <img src="assets/images/ngo3.jpg" alt="">
+                            </div>
+                        </div>
+                        <p class="res"><h3>ARHC</h3></p>
+                    </a>
+                    <a href="#" class="doc--card">
+                        <div class="img--box--cover">
+                            <div class="img--box">
+                                <img src="assets/images/ngo4.png" alt="">
+                            </div>
+                        </div>
+                        <p class="res"><h3>BHYC</h3></p>
+                    </a>
+                    <a href="#" class="doc--card">
+                        <div class="img--box--cover">
+                            <div class="img--box">
+                                <img src="assets/images/ngo5.jpg" alt="">
+                            </div>
+                        </div>
+                        <p class="res"><h3>GFJC</h3></p>
+                    </a>
+                    <a href="#" class="doc--card">
+                        <div class="img--box--cover">
+                            <div class="img--box">
+                                <img src="assets/images/ngo6.png" alt="">
+                            </div>
+                        </div>
+                        <p class="res"><h3>ARHC</h3></p>
+                    </a>
+                    <a href="#" class="doc--card">
+                        <div class="img--box--cover">
+                            <div class="img--box">
+                                <img src="assets/images/ngo7.jpg" alt="">
+                            </div>
+                        </div>
+                        <p class="res"><h3>HYTC</h3></p>
+                    </a>
+                    <a href="#" class="doc--card">
+                        <div class="img--box--cover">
+                            <div class="img--box">
+                                <img src="assets/images/ngo8.jpeg" alt="">
+                            </div>
+                        </div>
+                        <p class="res"><h3>SHLC</h3></p>
+                    </a>
+                </div>
+            </div>
+            <div class="title">
+                <h2 class="section--title">Ongoing Events</h2>
+            </div>
+            <div class="event--cards">
+                <div class="event--card">
+                    <div class="event--card--date">
+                        <span class="month"><h3>Jan</h3></span>
+                        <span class="day"><h3>04</h3></span>
+                    </div>
+                    <span class="info">
+                        <h2>SPMC</h2>
+                        <h3>Far from the Home But Still Home Feeling 2022</h3>
+                    </span>
+                    <button class="event-btn"><span class="evee"><h3>View Event</h3></span></button>
+                </div>
+                <div class="event--card">
+                    <div class="event--card--date">
+                        <span class="month"><h3>Feb</h3></span>
+                        <span class="day"><h3>04</h3></span>
+                    </div>
+                    <span class="info">
+                        <h2>MSPC</h2>
+                        <h3>Far from the Home But Still Home Feeling 2022</h3>
+                    </span>
+                    <button class="event-btn"><span class="evee"><h3>View Event</h3></span></button>
+                </div>
+                <div class="event--card">
+                    <div class="event--card--date">
+                        <span class="month"><h3>Mar</h3></span>
+                        <span class="day"><h3>04</h3></span>
+                    </div>
+                    <span class="info">
+                        <h2>BMPC</h2>
+                        <h3>Far from the Home But Still Home Feeling 2022</h3>
+                    </span>
+                    <button class="event-btn"><span class="evee"><h3>View Event</h3></span></button>
+                </div>
+                <div class="event--card1">
+                    <div class="event--card--date">
+                        <span class="month"><h3>Apr</h3></span>
+                        <span class="day"><h3>04</h3></span>
+                    </div>
+                    <span class="info">
+                        <h2>GSTC</h2>
+                        <h3>Far from the Home But Still Home Feeling 2022</h3>
+                    </span>
+                    <button class="event-btn"><span class="evee"><h3>View Event</h3></span></button>
+                </div>
+                
+            </div>
+            
+        </div>
+    </section>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>

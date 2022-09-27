@@ -1,9 +1,9 @@
-function register(){
-    document.location.href="register.html";
+function login(){
+    document.location.href="login1.html";
 }
 
-function register1(){
-    document.location.href="register1.html";
+function login1(){
+    document.location.href="login.html";
 }
 
 'use strict';

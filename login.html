@@ -1,57 +1,111 @@
+<!DOCTYPE html>
 <html>
 <head>
-    <title> Sign in into your account-FWMAD</title>
+    <title>{% block title %}{% endblock title %} Sign in into your account-FWMAD</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./logo.svg" type="image/svg+xml">
     <link rel="stylesheet" href="./assets/css/style1.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
 </head>
 <body>
     <div class="hero">
         <div class="form-box">
-            <div class="button-box">
-                <div id="btn"></div>
-                <button type="button" class="toggle-btn" onclick="indi()">Indvidual</button>
-                <button type="button" class="toggle-btn" onclick="ngo()">NGOs,Org.</button>
+            <div id="jklh" class="ghre">
+                <div class="lgo">
+                    <img src="./assets/images/icon.png">
+                </div>
+                <span class="sign"><h1>Sign in</h1></span>
+                <span class="line"><h3>to continue to FWMAD</h3></span>
+                <form id="indi" class="input-group">
+                    <input type="text" class="input-field" id="username" required=" " onkeyup="this.setAttribute('value', this.value);" value="" >
+                    <label for="" class="hnt">Email Or Username</label>
+                    <a href="">
+                        <span class="forg"><h4>Forgot email?</h4></span>
+                    </a>
+                </form>
+                
+                <div class="cares">
+                    <span class="care"><h4>Not Your Computer? Concern about your privacy.</h4></span>
+                    <a href="">
+                        <span class="fods"><h4>Learn more</h4></span>
+                    </a>
+                </div>
+                <div class="lst" id="sust">
+                    <a href="register1.html">
+                        <span class="lsts"><h4>Create account</h4></span>
+                    </a>
+                    <div id="trew">
+                        <button type="submit" id="subm" class="submit-btn" onclick="kurt()">
+                            <span class="lstss"><h5>Next</h5></span>
+                        </button>
+                    </div>
+                </div>
             </div>
-            <center><span><h1>Sign in</h1></span></center>
-            <form id="indi" class="input-group">
-                <br><br><br><input type="text" class="input-field" placeholder="Enter Email Id" required>
-                <input type="text" class="input-field" placeholder="Enter Password" required>
-                <br><a href="" style="text-decoration:none">Forgot Password?</a>
-            </form>
-            <form id="ngo" class="input-group">
-                <br><br><br><input type="text" class="input-field" placeholder="Enter Email Id" required>
-                <input type="text" class="input-field" placeholder="Enter Password" required>
-                <br><a href="" style="text-decoration:none">Forgot Password?</a>
-            </form>
-
-            <center><br><br><br><br><br><br><br><br><br><button type="submit" class="submit-btn">Sign in</button></center>
-            <br><br><center><span>Or Sign in with</span></center>
-            <div class="social-icons">
-                <img src="./assets/images/gp.png">
-                <img src="./assets/images/fb.png">
-                <img src="./assets/images/tw.png">
+            <div id="kurt" class="dyut">
+                <div class="lgoo">
+                    <img src="./assets/images/icon.png">
+                </div>
+                <span class="signs"><h1>Instinct Bot</h1></span>
+                <div class="hrys" onclick="jklh()">
+                    <img src="./assets/images/testi-avatar.png">
+                    <span class="lines"><h3>instinctbot@gmail.com</h3></span>
+                    <div class="ions">
+                        <span class="ion"><i class="ri-arrow-down-s-line"></i></span>
+                    </div>
+                </div>
+                <form id="indis" class="input-groups">
+                    <input type="text" class="input-fields" id="password" required=" " onkeyup="this.setAttribute('value', this.value);" value="" >
+                    <label for="" class="hnts">Password</label>
+                    <a href="">
+                        <input type="checkbox" class="cbox">
+                        <span class="forgs"><h4>Show password</h4></span>
+                    </a>
+                </form>
+    
+                <div class="lstd">
+                    <a href="">
+                        <span class="lstsd"><h4>Forgot Password?</h4></span>
+                    </a>
+                    <div id="gtte" class="hyui">
+                        <button type="submit" id="sub" class="submit-btns" onclick="validate()">
+                            <span class="lstssd"><h5>Next</h5></span>
+                        </button>
+                    </div>
             </div>
             
         </div>
+            
+        </div>
+        <div class="lats">
+            <div class="custom-select">
+                <select>
+                    <option value="English">
+                        <span class="fgt"><h5>English (United States)</h5></span>
+                    </option>
+                    <option value="English">
+                        <span class="fgt"><h5>English (United States)</h5></span>
+                    </option>
+                    <option value="Hindi">
+                        <span class="fgt"><h5>Hindi</h5></span>
+                    </option>
+                    <option value="french">
+                        <span class="fgt"><h5>French</h5></span>
+                    </option>
+                    <option value="spanish">
+                        <span class="fgt"><h5>Spanish</h5></span>
+                    </option>
+                </select>
+            </div>
+            <div class="latss">
+                <span class="hbt"><h5>Help</h5></span>
+                <span class="hbt"><h5>Privacy</h5></span>
+                <span class="hbt"><h5>Terms</h5></span>
+            </div>
+        </div>
         
     </div>
-    <script>
-        var x=document.getElementById("indi");
-        var y=document.getElementById("ngo");
-        var z=document.getElementById("btn");
-
-        function ngo() {
-            x.style.left="-440px";
-            y.style.left="10px";
-            z.style.left="135px";
-        }
-        function indi() {
-            x.style.left="10px";
-            y.style.left="450px";
-            z.style.left="0";
-        }
-
-    </script>
+    <script src="assets/js/login.js"></script>
 
 </body>
 </html>
